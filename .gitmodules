@@ -9,7 +9,8 @@
 	url = https://github.com/lwip-tcpip/lwip.git
 [submodule "lib/berkeley-db-1.xx"]
 	path = lib/berkeley-db-1.xx
-	url = https://github.com/micropython/berkeley-db-1.xx
+	url = https://github.com/mcapdeville/berkeley-db-1.xx
+	branch = esp32s3aprs-MPv1.24.1
 [submodule "lib/stm32lib"]
 	path = lib/stm32lib
 	url = https://github.com/micropython/stm32lib
