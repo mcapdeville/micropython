@@ -114,7 +114,7 @@ if(MICROPY_PY_BTREE)
         message(FATAL_ERROR " MICROPY_PY_BTREE is enabled but the berkeley-db submodule is not initialised.\n Run 'make BOARD=${MICROPY_BOARD} submodules'")
     endif()
 
-    add_library(micropy_extmod_btree OBJECT
+    add_library(micropy_extmod_btree STATIC
         ${MICROPY_LIB_BERKELEY_DIR}/btree/bt_close.c
         ${MICROPY_LIB_BERKELEY_DIR}/btree/bt_conv.c
         ${MICROPY_LIB_BERKELEY_DIR}/btree/bt_debug.c
